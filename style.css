@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.logoMain {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  color: #5dc0d1;
+}
+
+nav {
+  background-color: #5dc0d1;
+  margin-left: 72px;
+  margin-right: 54px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.bgImg {
+  background-image: url('myImg.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+
+.order {
+  padding-left: 21px;
+  padding-right: 21px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+}
+
+.hero {
+  margin-top: -37px;
+  color: white;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.parent2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.col2 {
+  width: 22rem;
+  padding: 21px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.col {
+  width: 18rem;
+}
+
+.border {
+  border: 4px solid white;
+  border-radius: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  /* margin: 0;
+    padding: 0; */
+}
+
+.container h1 {
+  color: #333;
+  /* text-align: center; */
+}
+
+.container p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.btn {
+  border: 2px solid #5dc0d1;
+  color: #5dc0d1;
+  background-color: transparent;
+  padding: 0px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5dc0d1;
+  color: white;
+}
+
+footer {
+  background-color: #5dc0d1;
+}
+
+.footer {
+  /* width: 15rem; */
+  text-align: center;
+  margin-top: 32px;
+  padding: 12px 4rem;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0 21rem; /* Adjust the margin to control the spacing between the div elements */
+}
+
+/* .main > div {
+  padding: 0 12px; 
+} */
+
+.last {
+  color: white;
+  text-align: center;
+  padding: 1px 3rem;
+  margin-top: 18px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  font-size: 2rem;
+  margin: 0 10px;
+  background-color: rgb(185, 133, 36);
+  width: 9rem;
+  height: 4rem;
+  text-align: center;
+  padding: 2rem 0px;
+}
